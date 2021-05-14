@@ -53,6 +53,11 @@
 			isa = PBXGroup;
 			children = (
 				36C7396D264EEE8D009C888B /* JsonProjectApp.swift */,
+				36C73980264EEF87009C888B /* Views */,
+				36C7397D264EEF5B009C888B /* ViewModels */,
+				36C7397C264EEF53009C888B /* Models */,
+				36C7397F264EEF7B009C888B /* Services */,
+				36C7397E264EEF6A009C888B /* Data */,
 				36C7396F264EEE8D009C888B /* ContentView.swift */,
 				36C73971264EEE90009C888B /* Assets.xcassets */,
 				36C73976264EEE90009C888B /* Info.plist */,
@@ -67,6 +72,41 @@
 				36C73974264EEE90009C888B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36C7397C264EEF53009C888B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36C7397D264EEF5B009C888B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		36C7397E264EEF6A009C888B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		36C7397F264EEF7B009C888B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		36C73980264EEF87009C888B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
