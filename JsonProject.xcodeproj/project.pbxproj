@@ -11,6 +11,8 @@
 		36C73970264EEE8D009C888B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C7396F264EEE8D009C888B /* ContentView.swift */; };
 		36C73972264EEE90009C888B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C73971264EEE90009C888B /* Assets.xcassets */; };
 		36C73975264EEE90009C888B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C73974264EEE90009C888B /* Preview Assets.xcassets */; };
+		36C73982264EF773009C888B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 36C73981264EF773009C888B /* data.json */; };
+		36C73984264EF836009C888B /* NameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C73983264EF836009C888B /* NameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		36C73971264EEE90009C888B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36C73974264EEE90009C888B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36C73976264EEE90009C888B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C73981264EF773009C888B /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		36C73983264EF836009C888B /* NameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,6 @@
 				36C7397C264EEF53009C888B /* Models */,
 				36C7397F264EEF7B009C888B /* Services */,
 				36C7397E264EEF6A009C888B /* Data */,
-				36C7396F264EEE8D009C888B /* ContentView.swift */,
 				36C73971264EEE90009C888B /* Assets.xcassets */,
 				36C73976264EEE90009C888B /* Info.plist */,
 				36C73973264EEE90009C888B /* Preview Content */,
@@ -77,6 +80,7 @@
 		36C7397C264EEF53009C888B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				36C73983264EF836009C888B /* NameModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,6 +95,7 @@
 		36C7397E264EEF6A009C888B /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				36C73981264EF773009C888B /* data.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 		36C73980264EEF87009C888B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				36C7396F264EEE8D009C888B /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C73975264EEE90009C888B /* Preview Assets.xcassets in Resources */,
+				36C73982264EF773009C888B /* data.json in Resources */,
 				36C73972264EEE90009C888B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C73984264EF836009C888B /* NameModel.swift in Sources */,
 				36C73970264EEE8D009C888B /* ContentView.swift in Sources */,
 				36C7396E264EEE8D009C888B /* JsonProjectApp.swift in Sources */,
 			);
